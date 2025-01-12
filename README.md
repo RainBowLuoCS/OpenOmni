@@ -20,8 +20,8 @@
 1. <font style="color:rgb(31, 35, 40);">Clone this repository</font>
 
 ```plain
-git clone https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/OpenOMNI.git
-cd OpenOMNI
+git clone https://github.com/RainBowLuoCS/OpenOmni.git
+cd OpenOmni
 ```
 
 1. <font style="color:rgb(31, 35, 40);">Install Package</font>
@@ -33,6 +33,7 @@ pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 pip install openai-whisper
 pip install transformers==4.43.4
+pip install -r requirements.txt
 ```
 
 1. <font style="color:rgb(31, 35, 40);">Install additional packages for training</font>
