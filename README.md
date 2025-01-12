@@ -3,7 +3,7 @@
 <img src="assets/logo.png" width="140px">
 </div>
 
-# OpenOmni: A Fully OpenSource Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+# OpenOmni: A Fully Open Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
