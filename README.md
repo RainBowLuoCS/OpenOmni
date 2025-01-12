@@ -3,7 +3,16 @@
 <img src="assets/logo.png" width="140px">
 </div>
 
-# OpenOmni: A Fully Open-Sourced Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+# OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+
+<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Dataset (Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)] [[🏆 Models(Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)]  </div></font>
+OpenOmni is the end-to-end fully open-source pioneering method that successfully incorporates image,speech and text into the omni large language model. 
+
+## 🔥 Update
+
+- [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni)
+- [2024/11/14]🔥OpenOmni is coming! We release the [paper](https://arxiv.org/pdf/2501.04561) for OpneOmni!
+
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
@@ -50,16 +59,18 @@ pip install flash-attn --no-build-isolation
 
 | Stage | <font style="color:rgb(31, 35, 40);">Model</font> | <font style="color:rgb(31, 35, 40);">Speech Projector</font> | <font style="color:rgb(31, 35, 40);">Image</font><br/><font style="color:rgb(31, 35, 40);">Projector</font> | <font style="color:rgb(31, 35, 40);">IT Data</font> | <font style="color:rgb(31, 35, 40);">Download</font> |
 | --- | --- | --- | --- | --- | --- |
-| 1-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage1-1</font> |  |  | <font style="color:rgb(31, 35, 40);">aishell2+wetnetspeech+librispeech</font> | ckpt |
-| 2-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-1</font> |  |  | <font style="color:rgb(31, 35, 40);">llava-pretrain</font> | ckpt |
-| 2-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-2</font> |  |  | <font style="color:rgb(31, 35, 40);">mmevol</font> | ckpt |
-| 3-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-1</font> |  |  | <font style="color:rgb(31, 35, 40);">openomni-1M</font> | ckpt |
-| 3-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-2</font> |  |  | <font style="color:rgb(31, 35, 40);">openomni-prefer</font> | ckpt |
+| 1-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage1-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage1-1.json</font> | ckpt |
+| 2-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage2-1.json</font> | ckpt |
+| 2-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-2</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage2-2.json</font> | ckpt |
+| 3-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage3-1.json</font> | ckpt |
+| 3-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-2</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage3-2.json</font> | ckpt |
 
 
 ## <font style="color:rgb(31, 35, 40);">Preparation</font>
 ### <font style="color:rgb(31, 35, 40);">Dataset</font>
-<font style="color:rgb(31, 35, 40);">Please follow [MMEvol](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/mmevol) to prepare the corresponding images-text datasets. Here we provide the details of speech-text datasets.</font>
+<font style="color:rgb(31, 35, 40);">Please follow [MMEvol](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/mmevol) to prepare the corresponding images-text datasets. Here we only provide the details of speech-text datasets.</font>
+
+The following is the data directory tree of OpenOmni
 
 ### <font style="color:rgb(31, 35, 40);">data structure</font>
 ```plain
@@ -95,9 +106,11 @@ datasets
 + All file/path starting with "audio" are self-synthesized.  
 + DPO contains approximately 9k entries for "prefer" and "reject," covering 9 types of emotions.
 
+More details about data curation can be found in our paper.
+
 ## <font style="color:rgb(31, 35, 40);">Train</font>
 ### <font style="color:rgb(31, 35, 40);">Speech2Text Pretrain</font>
-<font style="color:rgb(31, 35, 40);">Please download the MMEvol, AIShell-4, LibriSPeech, WeNetSpeech,  OpenOmniData and organize the data following Preparation before training .  Make sure set up the corresponding train script with correct setting (data path, weight path, and hyper-paramaters)</font>
+<font style="color:rgb(31, 35, 40);">Please download the MMEvol, AIShell-4, LibriSPeech, WeNetSpeech,  OpenOmni Data and organize the data following Preparation before training .  Make sure set up the corresponding train script with correct setting (data path, weight path, and hyper-paramaters)</font>
 
 ```plain
 bash scripts/train/llama3/speech2text_pretrain.sh
@@ -258,7 +271,7 @@ if you have any question, please consider following concat for help
 
 ## Acknowledgement
 
-\- [LLaVA](https://github.com/haotian-liu/LLaVA),[LLaVA-Omni](https://github.com/ictnlp/LLaMA-Omni): the codebase we built upon. Thanks for their brilliant contributions to the community! We just can't wait to use OpenOmni.
+\- [LLaVA](https://github.com/haotian-liu/LLaVA) and [LLaVA-Omni](https://github.com/ictnlp/LLaMA-Omni): the codebase we built upon. Thanks for their brilliant contributions to the community! We just can't wait to use OpenOmni.
 
 \- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): the amazing open-sourced suit for evaluating various LMMs!
 
