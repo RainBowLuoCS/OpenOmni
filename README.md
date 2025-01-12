@@ -3,7 +3,7 @@
 <img src="assets/logo.png" width="140px">
 </div>
 
-# OpenOmni: A Fully Open Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+# OpenOmni: A Fully Open-Sourced Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
@@ -238,6 +238,14 @@ If you find this repo useful for your research, please consider citing the paper
   year={2025}
 }
 ```
+```
+@article{luo2024mmevol,
+  title={Mmevol: Empowering multimodal large language models with evol-instruct},
+  author={Luo, Run and Zhang, Haonan and Chen, Longze and Lin, Ting-En and Liu, Xiong and Wu, Yuchuan and Yang, Min and Wang, Minzheng and Zeng, Pengpeng and Gao, Lianli and others},
+  journal={arXiv preprint arXiv:2409.05840},
+  year={2024}
+}
+```
 
 ## <font style="color:rgb(31, 35, 40);">📧 </font><font style="color:rgb(31, 35, 40);">Contact</font> 
 
@@ -246,3 +254,14 @@ if you have any question, please consider following concat for help
 - Run Luo — r.luo@siat.ac.cn
 
 - Haonan Zhang — zchiowal@gmail.com
+
+
+## Acknowledgement
+
+\- [LLaVA](https://github.com/haotian-liu/LLaVA),[LLaVA-Omni](https://github.com/ictnlp/LLaMA-Omni): the codebase we built upon. Thanks for their brilliant contributions to the community! We just can't wait to use OpenOmni.
+
+\- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): the amazing open-sourced suit for evaluating various LMMs!
+
+\- [CosVoice](https://github.com/FunAudioLLM/CosyVoice): the amazing open-sourced speech tokenizer for speech discretization and reconstruction with 6k vocabulary size!
+
+\- [GLM4Voice](https://github.com/THUDM/GLM-4-Voice): he amazing open-sourced speech tokenizer for speech discretization and reconstruction with 16k vocabulary size!
