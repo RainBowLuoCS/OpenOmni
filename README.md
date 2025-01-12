@@ -11,7 +11,8 @@ OpenOmni is the end-to-end fully open-source pioneering method that successfully
 ## 🔥 Update
 
 - [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni)
-- [2024/11/14]🔥OpenOmni is coming! We release the [paper](https://arxiv.org/pdf/2501.04561) for OpneOmni!
+- [2025/01/09]🔥After two months of company audit! We release the [paper](https://arxiv.org/pdf/2501.04561)
+- [2024/11/14]🔥We submit the [paper](https://arxiv.org/pdf/2501.04561) for peer review
 
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
@@ -223,8 +224,6 @@ python openomni/eval/qwen2/omni_eavl.py
 python openomni/eval/llama3/ov_odyssey_eavl.py
 python openomni/eval/qwen2/ov_odyssey_eavl.py
 ```
-
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/136956739/1734596642459-bd580742-7ee4-4f25-bd6e-3dcc89ffa58c.png)
 
 ### <font style="color:rgb(31, 35, 40);">Text-Speech Evaluation </font>
 ```plain
