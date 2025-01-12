@@ -52,6 +52,19 @@ pip install -r requirements.txt
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
+## 🔥 Fast Usage
+
+After downloading the weights and configuring the paths properly. Two open-sourced speech tokenizer are needed for speech discretization and reconstruction with different vocabulary size!  [CosVoice for 6K CTC Mode](https://github.com/FunAudioLLM/CosyVoice) and [GLM4Voice for 16K AR Mode](https://github.com/THUDM/GLM-4-Voice)
+
+Fast inference for omnimodal input (speech,text,image and video)
+```plain
+python inference.py
+```
+
+Fast interation for omnimodal input (speech,text,image and video)
+```plain
+python demo.py
+```
 
 ## <font style="color:rgb(31, 35, 40);">Model</font>
 ![](assets/framework.png)
@@ -107,7 +120,7 @@ datasets
 + All file/path starting with "audio" are self-synthesized.  
 + DPO contains approximately 9k entries for "prefer" and "reject," covering 9 types of emotions.
 
-More details about data curation can be found in our paper.
+More details about data curation can be found in our [paper](https://arxiv.org/pdf/2501.04561).
 
 ## <font style="color:rgb(31, 35, 40);">Train</font>
 ### <font style="color:rgb(31, 35, 40);">Speech2Text Pretrain</font>
