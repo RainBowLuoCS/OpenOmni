@@ -231,11 +231,11 @@ python openomni/eval/qwen2/et2s_eavl.py
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@article{luo2024openomni,
+@article{luo2025openomni,
   title={OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis},
   author={Run Luo, Ting-En Lin, Haonan Zhang, Yuchuan Wu, Xiong Liu, Min Yang, Yongbin Li, Longze Chen, Jiaming Li, Lei Zhang, Yangyi Chen, Hamid Alinejad-Rokny, Fei Huang},
-  journal={arXiv preprint arXiv:2409.05840},
-  year={2024}
+  journal={arXiv preprint arXiv:2501.04561},
+  year={2025}
 }
 ```
 
