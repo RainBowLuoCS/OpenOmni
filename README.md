@@ -398,6 +398,12 @@ python openomni/eval/qwen2/et2s_eavl.py
 </tr>
 </table>
 
+## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Video Demo</font> 
+
+
+https://github.com/user-attachments/assets/cd679b7c-9f9d-4631-a1f5-96b1428a8ad4
+
+
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Citation</font> 
 
 If you find this repo useful for your research, please consider citing the paper
