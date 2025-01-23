@@ -5,7 +5,7 @@
 
 # OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
 
-<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Dataset (Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)] [[🏆 Models(Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)]  </div></font>
+<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Datasets](https://huggingface.co/datasets/Tongyi-ConvAI/OpenOmni)] [[🏆 Models](https://huggingface.co/Tongyi-ConvAI/OpenOmni)]  </div></font>
 OpenOmni is the end-to-end fully open-source pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
 
 ## 🔥 Update
