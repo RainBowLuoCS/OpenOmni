@@ -6,13 +6,14 @@
 # OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
 
 <font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Datasets](https://huggingface.co/datasets/Tongyi-ConvAI/OpenOmni)] [[🏆 Models](https://huggingface.co/Tongyi-ConvAI/OpenOmni)]  </div></font>
-OpenOmni is the end-to-end fully open-source pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
+OpenOmni is the end-to-end fully open-sourced pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
 
 ## 🔥 Update
 
 - [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni)
 - [2025/01/09]🔥After two months of company audit! We release the [paper](https://arxiv.org/pdf/2501.04561)
 - [2024/11/14]🔥We submit the [paper](https://arxiv.org/pdf/2501.04561) for peer review
+- [2024/09/15]🔥We write the first line of OpenOmni project for fully open-sourced pioneering OmniLLM in end-to-end manner.
 
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
@@ -442,4 +443,4 @@ if you have any question, please consider following concat for help
 
 \- [CosVoice](https://github.com/FunAudioLLM/CosyVoice): the amazing open-sourced speech tokenizer for speech discretization and reconstruction with 6k vocabulary size!
 
-\- [GLM4Voice](https://github.com/THUDM/GLM-4-Voice): he amazing open-sourced speech tokenizer for speech discretization and reconstruction with 16k vocabulary size!
+\- [GLM4Voice](https://github.com/THUDM/GLM-4-Voice): the amazing open-sourced speech tokenizer for speech discretization and reconstruction with 16k vocabulary size!
