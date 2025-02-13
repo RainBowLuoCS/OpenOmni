@@ -42,8 +42,6 @@ conda create -n openomni python=3.10 -y
 conda activate openomni
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e ".[train]"
-pip install openai-whisper
-pip install transformers==4.43.4
 pip install -r requirements.txt
 ```
 
