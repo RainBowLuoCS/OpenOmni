@@ -10,7 +10,7 @@ OpenOmni is the end-to-end fully open-sourced pioneering method that successfull
 
 ## 🔥 Update
 
-- [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni)
+- [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni), [model](https://huggingface.co/Tongyi-ConvAI/OpenOmni) and [data](https://huggingface.co/datasets/Tongyi-ConvAI/OpenOmni)
 - [2025/01/09]🔥After two months of company audit! We release the [paper](https://arxiv.org/pdf/2501.04561)
 - [2024/11/14]🔥We submit the [paper](https://arxiv.org/pdf/2501.04561) for peer review
 - [2024/09/15]🔥We write the first line of OpenOmni project for fully open-sourced pioneering OmniLLM in end-to-end manner.
