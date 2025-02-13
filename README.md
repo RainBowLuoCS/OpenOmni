@@ -41,7 +41,7 @@ cd OpenOmni
 conda create -n openomni python=3.10 -y
 conda activate openomni
 pip install --upgrade pip  # enable PEP 660 support
-pip install -e .
+pip install -e ".[train]"
 pip install openai-whisper
 pip install transformers==4.43.4
 pip install -r requirements.txt
@@ -50,7 +50,6 @@ pip install -r requirements.txt
 1. <font style="color:rgb(31, 35, 40);">Install additional packages for training</font>
 
 ```plain
-pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 ## 🔥 Fast Usage
