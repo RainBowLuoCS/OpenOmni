@@ -317,7 +317,7 @@ with gr.Blocks() as demo:
                 f"""
                 <div style="display: flex; align-items: center; justify-content: center;">
                     <img src="data:image/jpeg;base64,{logo}" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-                    <h1 style="margin: 0;">OpenOmni: A Fully Open-Source Omni Large Language Model</h1>
+                    <h1 style="margin: 0;">OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis</h1>
                 </div>
                 """
             )
