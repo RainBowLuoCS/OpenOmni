@@ -409,7 +409,7 @@ If you find this repo useful for your research, please consider citing the paper
 ```
 @article{luo2025openomni,
   title={OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis},
-  author={Run Luo, Ting-En Lin, Haonan Zhang, Yuchuan Wu, Xiong Liu, Min Yang, Yongbin Li, Longze Chen, Jiaming Li, Lei Zhang, Yangyi Chen, Hamid Alinejad-Rokny, Fei Huang},
+  author={Luo, Run and Lin, Ting-En and Zhang, Haonan and Wu, Yuchuan and Liu, Xiong and Yang, Min and Li, Yongbin and Chen, Longze and Li, Jiaming and Zhang, Lei and others},
   journal={arXiv preprint arXiv:2501.04561},
   year={2025}
 }
