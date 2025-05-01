@@ -247,7 +247,7 @@ python openomni/eval/qwen2/t2s_eavl.py
 python openomni/eval/llama3/et2s_eavl.py
 python openomni/eval/qwen2/et2s_eavl.py
 ```
-## <font style="color:rgb(31, 35, 40);"> 📌 Cases </font>
+## <font style="color:rgb(31, 35, 40);"> 📌 Cases of the text to speech </font>
 <table>
 <tr>
 <td align="center">
