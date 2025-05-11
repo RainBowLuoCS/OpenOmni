@@ -5,17 +5,8 @@
 
 # OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis
 
-<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Datasets](https://huggingface.co/datasets/Tongyi-ConvAI/OpenOmni)] [[🏆 Models](https://huggingface.co/Tongyi-ConvAI/OpenOmni)]  </div></font>
+<font size=5><div align='center' >  [[📖 arXiv Paper]()] [[📊 Datasets]()] [[🏆 Models]()]  </div></font>
 OpenOmni is the end-to-end fully open-sourced pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
-
-## 🔥 Update
-- [2025/05/05]🔥Our gate fusion technology for more acurrate speech content generation is adopted by [LLaMA-Omni2](https://arxiv.org/pdf/2505.02625)
-- [2025/02/12]🔥Add some missing file and fix all possible bug
-- [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni), [model](https://huggingface.co/Tongyi-ConvAI/OpenOmni) and [data](https://huggingface.co/datasets/Tongyi-ConvAI/OpenOmni)
-- [2025/01/09]🔥After two months of company audit! We release the [paper](https://arxiv.org/pdf/2501.04561)
-- [2024/11/14]🔥We submit the [paper](https://arxiv.org/pdf/2501.04561) for peer review
-- [2024/09/15]🔥We write the first line of OpenOmni project for fully open-sourced pioneering OmniLLM in end-to-end manner.
-
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
@@ -32,7 +23,7 @@ OpenOmni is the end-to-end fully open-sourced pioneering method that successfull
 1. <font style="color:rgb(31, 35, 40);">Clone this repository</font>
 
 ```plain
-git clone https://github.com/RainBowLuoCS/OpenOmni.git
+git clone xxx
 cd OpenOmni
 ```
 
@@ -119,7 +110,7 @@ datasets
 + All file/path starting with "audio" are self-synthesized.  
 + DPO contains approximately 9k entries for "prefer" and "reject," covering 9 types of emotions.
 
-More details about data curation can be found in our [paper](https://arxiv.org/pdf/2501.04561).
+More details about data curation can be found in our [paper]().
 
 ## <font style="color:rgb(31, 35, 40);">Train</font>
 ### <font style="color:rgb(31, 35, 40);">Speech2Text Pretrain</font>
@@ -523,31 +514,6 @@ https://github.com/user-attachments/assets/cd679b7c-9f9d-4631-a1f5-96b1428a8ad4
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Citation</font> 
 
 If you find this repo useful for your research, please consider citing the paper
-
-```
-@article{luo2025openomni,
-  title={OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis},
-  author={Luo, Run and Lin, Ting-En and Zhang, Haonan and Wu, Yuchuan and Liu, Xiong and Yang, Min and Li, Yongbin and Chen, Longze and Li, Jiaming and Zhang, Lei and others},
-  journal={arXiv preprint arXiv:2501.04561},
-  year={2025}
-}
-```
-```
-@article{luo2024mmevol,
-  title={Mmevol: Empowering multimodal large language models with evol-instruct},
-  author={Luo, Run and Zhang, Haonan and Chen, Longze and Lin, Ting-En and Liu, Xiong and Wu, Yuchuan and Yang, Min and Wang, Minzheng and Zeng, Pengpeng and Gao, Lianli and others},
-  journal={arXiv preprint arXiv:2409.05840},
-  year={2024}
-}
-```
-
-## <font style="color:rgb(31, 35, 40);">📧 </font><font style="color:rgb(31, 35, 40);">Contact</font> 
-
-if you have any question, please consider following concat for help
-
-- Run Luo — r.luo@siat.ac.cn
-
-- Haonan Zhang — zchiowal@gmail.com
 
 
 ## Acknowledgement
