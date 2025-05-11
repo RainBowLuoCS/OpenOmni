@@ -397,6 +397,8 @@ python openomni/eval/qwen2/et2s_eavl.py
 </tr>
 </table>
 
+## <font style="color:rgb(31, 35, 40);"> 📌 Cases of the text to emotional speech </font>
+
 <table>
 <tr>
 <td align="center">
@@ -418,9 +420,10 @@ python openomni/eval/qwen2/et2s_eavl.py
 <tr>
 <td align="center">
   
-[en_0.webm](https://github.com/user-attachments/assets/cc61b680-1f80-416e-89f7-418222f2de74)
+[en_sad.webm](https://github.com/user-attachments/assets/bbc331b3-c9f5-4e74-9e40-6e1ae076cc7d)
 
 </td>
+
 <td align="center">
   
 [en_1.webm](https://github.com/user-attachments/assets/74c058dd-9674-4832-9a08-fa882a16d539)
@@ -434,8 +437,6 @@ python openomni/eval/qwen2/et2s_eavl.py
 
 </td>
 </tr>
-
-
 
 </table>
 
