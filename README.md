@@ -433,18 +433,72 @@ python openomni/eval/qwen2/et2s_eavl.py
 </td>
 
 
+<td align="center">
+  
+[en_angry.webm](https://github.com/user-attachments/assets/6037574c-5137-475d-8c64-b857398def60)
 
+
+</td>
+<td align="center">
+
+[en_happy.webm](https://github.com/user-attachments/assets/9f39acab-8c3e-4079-a733-0a0f92bbf8aa)
+
+
+</td>
+
+</td>
+<td align="center">
+
+[en_fearful.webm](https://github.com/user-attachments/assets/05f2e9c2-82e3-4483-a19f-df0521527f7b)
+
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+**I am so sad.**
+
+</td>
+<td align="center">
+
+**Peter Piper picked a peck of pickled peppers.**
+
+</td>
+<td align="center">
+
+**Six slippery snails slid slowly seaward.**
+
+</td>
+
+</td>
+<td align="center">
+
+**Six slippery snails slid slowly seaward.**
+
+</td>
+
+</tr>
+
+</tr>
+<tr>
+<td align="center">
+  
+[zh_sad.webm](https://github.com/user-attachments/assets/c369c65e-d53a-4296-831c-1c4f5ad29b50)
+
+</td>
 
 
 <td align="center">
   
-[en_angry.webm](https://github.com/user-attachments/assets/71e71a9a-311d-40e2-b789-4787b88ce055)
+[zh_angry.webm](https://github.com/user-attachments/assets/a3a780c1-e93c-42c3-88c5-95713e5658a4)
 
 
 </td>
 <td align="center">
 
-[en_happy.webm](https://github.com/user-attachments/assets/9f39acab-8c3e-4079-a733-0a0f92bbf8aa).
+[zh_happy.webm](https://github.com/user-attachments/assets/bbd2010a-2d4a-4804-b2b9-f8bba16f78bf)
 
 
 </td>
@@ -452,7 +506,7 @@ python openomni/eval/qwen2/et2s_eavl.py
 </td>
 <td align="center">
 
-[en_fearful.webm](https://github.com/user-attachments/assets/05f2e9c2-82e3-4483-a19f-df0521527f7b).
+[zh_fearful.webm](https://github.com/user-attachments/assets/57b6f540-9e00-4507-90db-338af8eb0c8b)
 
 
 </td>
