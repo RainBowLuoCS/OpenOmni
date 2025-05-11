@@ -397,6 +397,48 @@ python openomni/eval/qwen2/et2s_eavl.py
 </tr>
 </table>
 
+<table>
+<tr>
+<td align="center">
+
+**She sells seashells by the seashore.**
+
+</td>
+<td align="center">
+
+**Peter Piper picked a peck of pickled peppers.**
+
+</td>
+<td align="center">
+
+**Six slippery snails slid slowly seaward.**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  
+[en_0.webm](https://github.com/user-attachments/assets/cc61b680-1f80-416e-89f7-418222f2de74)
+
+</td>
+<td align="center">
+  
+[en_1.webm](https://github.com/user-attachments/assets/74c058dd-9674-4832-9a08-fa882a16d539)
+
+
+</td>
+<td align="center">
+
+[en_2.webm](https://github.com/user-attachments/assets/bcdbf12d-c5e0-4373-bc92-625fb61fe9ab)
+
+
+</td>
+</tr>
+
+
+
+</table>
+
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Video Demo</font> 
 
 
