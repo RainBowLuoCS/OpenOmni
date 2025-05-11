@@ -3,7 +3,7 @@
 <img src="assets/logo.png" width="140px">
 </div>
 
-# OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+# OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis
 
 <font size=5><div align='center' >  [[📖 arXiv Paper]()] [[📊 Datasets]()] [[🏆 Models]()]  </div></font>
 OpenOmni is the end-to-end fully open-sourced pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
@@ -239,7 +239,7 @@ python openomni/eval/qwen2/t2s_eavl.py
 python openomni/eval/llama3/et2s_eavl.py
 python openomni/eval/qwen2/et2s_eavl.py
 ```
-## <font style="color:rgb(31, 35, 40);"> 📌 Cases </font>
+## <font style="color:rgb(31, 35, 40);"> 📌 Cases of the text to speech </font>
 <table>
 <tr>
 <td align="center">
@@ -386,6 +386,123 @@ python openomni/eval/qwen2/et2s_eavl.py
 
 </td>
 </tr>
+</table>
+
+## <font style="color:rgb(31, 35, 40);"> 📌 Cases of the text to emotional speech </font>
+
+<table>
+<tr>
+<td align="center">
+
+**I am so sad.**
+
+</td>
+<td align="center">
+
+**why are you doing this to me.**
+
+</td>
+<td align="center">
+
+**what a nice day.**
+
+</td>
+
+</td>
+<td align="center">
+
+**i am very scared.**
+
+</td>
+
+</tr>
+<tr>
+<td align="center">
+  
+[en_sad.webm](https://github.com/user-attachments/assets/bbc331b3-c9f5-4e74-9e40-6e1ae076cc7d)
+
+</td>
+
+
+<td align="center">
+  
+[en_angry.webm](https://github.com/user-attachments/assets/6037574c-5137-475d-8c64-b857398def60)
+
+
+</td>
+<td align="center">
+
+[en_happy.webm](https://github.com/user-attachments/assets/9f39acab-8c3e-4079-a733-0a0f92bbf8aa)
+
+
+</td>
+
+</td>
+<td align="center">
+
+[en_fearful.webm](https://github.com/user-attachments/assets/05f2e9c2-82e3-4483-a19f-df0521527f7b)
+
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+**我真的很难过.**
+
+</td>
+<td align="center">
+
+**你为什么要这样，我真的很生气.**
+
+</td>
+<td align="center">
+
+**今天天气真好.**
+
+</td>
+
+</td>
+<td align="center">
+
+**我真有点害怕.**
+
+</td>
+
+</tr>
+
+</tr>
+<tr>
+<td align="center">
+  
+[zh_sad.webm](https://github.com/user-attachments/assets/c369c65e-d53a-4296-831c-1c4f5ad29b50)
+
+</td>
+
+
+<td align="center">
+  
+[zh_angry.webm](https://github.com/user-attachments/assets/a3a780c1-e93c-42c3-88c5-95713e5658a4)
+
+
+</td>
+<td align="center">
+
+[zh_happy.webm](https://github.com/user-attachments/assets/bbd2010a-2d4a-4804-b2b9-f8bba16f78bf)
+
+
+</td>
+
+</td>
+<td align="center">
+
+[zh_fearful.webm](https://github.com/user-attachments/assets/57b6f540-9e00-4507-90db-338af8eb0c8b)
+
+
+</td>
+</tr>
+
 </table>
 
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Video Demo</font> 
