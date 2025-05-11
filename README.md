@@ -408,19 +408,19 @@ python openomni/eval/qwen2/et2s_eavl.py
 </td>
 <td align="center">
 
-**Peter Piper picked a peck of pickled peppers.**
+**why are you doing this to me.**
 
 </td>
 <td align="center">
 
-**Six slippery snails slid slowly seaward.**
+**what a nice day.**
 
 </td>
 
 </td>
 <td align="center">
 
-**Six slippery snails slid slowly seaward.**
+**i am very scared.**
 
 </td>
 
@@ -458,24 +458,24 @@ python openomni/eval/qwen2/et2s_eavl.py
 <tr>
 <td align="center">
 
-**I am so sad.**
+**我真的很难过.**
 
 </td>
 <td align="center">
 
-**Peter Piper picked a peck of pickled peppers.**
+**你为什么要这样，我真的很生气.**
 
 </td>
 <td align="center">
 
-**Six slippery snails slid slowly seaward.**
+**今天天气真好.**
 
 </td>
 
 </td>
 <td align="center">
 
-**Six slippery snails slid slowly seaward.**
+**我真有点害怕.**
 
 </td>
 
