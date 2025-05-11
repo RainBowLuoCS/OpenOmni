@@ -403,7 +403,7 @@ python openomni/eval/qwen2/et2s_eavl.py
 <tr>
 <td align="center">
 
-**She sells seashells by the seashore.**
+**I am so sad.**
 
 </td>
 <td align="center">
@@ -416,6 +416,14 @@ python openomni/eval/qwen2/et2s_eavl.py
 **Six slippery snails slid slowly seaward.**
 
 </td>
+
+</td>
+<td align="center">
+
+**Six slippery snails slid slowly seaward.**
+
+</td>
+
 </tr>
 <tr>
 <td align="center">
@@ -424,15 +432,27 @@ python openomni/eval/qwen2/et2s_eavl.py
 
 </td>
 
+
+
+
+
 <td align="center">
   
-[en_1.webm](https://github.com/user-attachments/assets/74c058dd-9674-4832-9a08-fa882a16d539)
+[en_angry.webm](https://github.com/user-attachments/assets/71e71a9a-311d-40e2-b789-4787b88ce055)
 
 
 </td>
 <td align="center">
 
-[en_2.webm](https://github.com/user-attachments/assets/bcdbf12d-c5e0-4373-bc92-625fb61fe9ab)
+[en_happy.webm](https://github.com/user-attachments/assets/9f39acab-8c3e-4079-a733-0a0f92bbf8aa).
+
+
+</td>
+
+</td>
+<td align="center">
+
+[en_fearful.webm](https://github.com/user-attachments/assets/05f2e9c2-82e3-4483-a19f-df0521527f7b).
 
 
 </td>
