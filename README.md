@@ -538,11 +538,18 @@ If you find this repo useful for your research, please consider citing the paper
 @article{luo2024mmevol,
   title={Mmevol: Empowering multimodal large language models with evol-instruct},
   author={Luo, Run and Zhang, Haonan and Chen, Longze and Lin, Ting-En and Liu, Xiong and Wu, Yuchuan and Yang, Min and Wang, Minzheng and Zeng, Pengpeng and Gao, Lianli and others},
-  journal={arXiv preprint arXiv:2409.05840},
+  journal={ACL 2025},
   year={2024}
 }
 ```
-
+```
+@article{zhang2025omnicharacter,
+  title={OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction},
+  author={Zhang, Haonan and Luo, Run and Liu, Xiong and Wu, Yuchuan and Lin, Ting-En and Zeng, Pengpeng and Qu, Qiang and Fang, Feiteng and Yang, Min and Gao, Lianli and others},
+  journal={ACL 2025},
+  year={2025}
+}
+```
 ## <font style="color:rgb(31, 35, 40);">📧 </font><font style="color:rgb(31, 35, 40);">Contact</font> 
 
 if you have any question, please consider following concat for help
