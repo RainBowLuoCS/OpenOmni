@@ -48,7 +48,7 @@ def detect_language(text):
 
 from openomni import conversation as conversation_lib
 from openomni.constants import (DEFAULT_IMAGE_TOKEN, DEFAULT_SPEECH_TOKEN, IGNORE_INDEX, IMAGE_TOKEN_INDEX,SPEECH_TOKEN_INDEX)
-from openomni.mm_utils import process_anyres_image, tokenizer_image_token
+from openomni.mm_utils import process_anyres_image, tokenizer_image_token, tokenizer_extra_token
 from openomni.model import *
 from openomni.train.llava_trainer import LLaVATrainer
 
@@ -622,12 +622,26 @@ def preprocess_plain(
             conversation_lib.default_conversation.sep
         conversations.append(conversation)
     # tokenize conversations
-    input_ids = [tokenizer_image_token(
-        prompt, tokenizer, return_tensors='pt') for prompt in conversations]
+    input_ids = []
+    for prompt in conversations:
+        if DEFAULT_IMAGE_TOKEN in prompt:
+            extra_token=DEFAULT_IMAGE_TOKEN
+            extra_token_index=IMAGE_TOKEN_INDEX
+        else:
+            extra_token=DEFAULT_SPEECH_TOKEN
+            extra_token_index=SPEECH_TOKEN_INDEX
+        input_ids.append(tokenizer_extra_token(
+                prompt, tokenizer, extra_token, extra_token_index, return_tensors='pt')) 
     targets = copy.deepcopy(input_ids)
     for target, source in zip(targets, sources):
-        tokenized_len = len(tokenizer_image_token(
-            source[0]['value'], tokenizer))
+        if DEFAULT_IMAGE_TOKEN in source[0]['value']:
+            extra_token=DEFAULT_IMAGE_TOKEN
+            extra_token_index=IMAGE_TOKEN_INDEX
+        else:
+            extra_token=DEFAULT_SPEECH_TOKEN
+            extra_token_index=SPEECH_TOKEN_INDEX
+        tokenized_len = len(tokenizer_extra_token(
+            source[0]['value'], tokenizer, extra_token, extra_token_index))
         target[:tokenized_len] = IGNORE_INDEX
 
     return dict(input_ids=input_ids, labels=targets, text_tokens=torch.LongTensor([[]]))
