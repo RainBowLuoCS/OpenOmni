@@ -20,7 +20,7 @@ def tokenizer_extra_token(prompt, tokenizer, extra_token=DEFAULT_SPEECH_TOKEN, e
         offset = 1
         input_ids.append(prompt_chunks[0][0])
 
-    for x in insert_separator(prompt_chunks, [image_token_index] * (offset + 1)):
+    for x in insert_separator(prompt_chunks, [extra_token_index] * (offset + 1)):
         input_ids.extend(x[offset:])
 
     if return_tensors is not None:
