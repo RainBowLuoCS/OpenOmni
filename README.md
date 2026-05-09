@@ -551,6 +551,14 @@ If you find this repo useful for your research, please consider citing the paper
   year={2025}
 }
 ```
+```
+@article{zhang2025omnicharacter++,
+  title   = {OmniCharacter++: Towards Comprehensive Benchmark for Realistic Role-Playing Agents},
+  author  = {Haonan Zhang},
+  journal = {TPAMI 2026},
+  year = {2026}
+}
+```
 ## <font style="color:rgb(31, 35, 40);">📧 </font><font style="color:rgb(31, 35, 40);">Contact</font> 
 
 if you have any question, please consider following concat for help
